@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: orange;
+    font-family: sans-serif;
+}
+
+h1{
+    font-weight:800;
+    color: #fff;
+}
+button{
+    width:80%;
+    height:50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+

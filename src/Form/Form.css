@@ -1,0 +1,14 @@
+form{
+    display:block;
+    width:200px;
+}
+input,textarea{
+    margin: 10px 10px 0 0 ;
+    padding:10px;
+    text-indent:10px;
+}
+
+fieldset{
+    width:80vw;
+    margin: 10px;
+}
