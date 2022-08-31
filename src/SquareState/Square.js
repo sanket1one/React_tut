@@ -28,7 +28,7 @@ function Square(props) {
 
             /* more declarative way */
             return prevSquare.map((square)=>{
-                    return  square.id === id? {...square,on:!square.on}: square
+                    return  square.id === id? {...square,on:!square.on}: square 
             })
 
         })

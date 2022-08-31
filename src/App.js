@@ -10,7 +10,7 @@
 // import './Light&Dark.css'
 // import "react-mde/lib/styles/css/react-mde-all.css";
 // import './NotesApp.css'
-import './Tenzie.css'
+// import './Tenzie.css'
 import Airbnb from './Airbnb/Airbnb';
 import Challenge1 from './challenges/Challenge1';
 import Challenge2 from './challenges/Challenge2';
@@ -36,12 +36,13 @@ import MainFile from './Light&Dark/MainFile';
 import Mde_tut from './React_mde/Mde_tut.js'
 import NotesApp from './NotesApp/NotesApp';
 import Tenzie from './Tenzie/Tenzie';
+import Router from './Router/Router';
 function App() {
   return (
     <div className="App">
-      {/* <Challenge1 />
-      <Challenge2 />
-      <Challenge3 /> */}
+      {/* <Challenge1 /> */}
+      {/* <Challenge2 /> */}
+      {/* <Challenge3 /> */}
       {/* <Project1 /> */}
       {/* <Cat /> */}
       {/* <Map /> */}
@@ -63,9 +64,9 @@ function App() {
       {/* <MainFile /> */}
       {/* <Mde_tut /> */}
       {/* <NotesApp /> */}
-      <Tenzie />
+      {/* <Tenzie /> */}
+      <Router />
     </div>
-    
   );
 
 }

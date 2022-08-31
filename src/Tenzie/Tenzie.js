@@ -58,7 +58,7 @@ function Tenzie() {
                 setDice(allNewDice())
                 setCount(0)
             }
-
+   
     }
 
     function holdDice(id){
@@ -70,7 +70,7 @@ function Tenzie() {
         }))
     }
 
-    const diceElement = dice.map(die =><Die key={die.id} value={die.value} isHeld={die.isHeld}   holdDice={()=> holdDice(die.id)} ></Die>)
+  const diceElement = dice.map(die =><Die key={die.id} value={die.value} isHeld={die.isHeld}  holdDice={()=> holdDice(die.id)} ></Die>)
   return (
     <main>
         {Tenzie && <Confetti />}

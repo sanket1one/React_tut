@@ -2,6 +2,7 @@
 
 import React from 'react'
 import './Form.css'
+
 function Form() {
     const [FormData,setFormData] = React.useState({
       firstName:"",
@@ -15,7 +16,6 @@ function Form() {
 
     function handleChange(event){
         // setFormData(event.target.value)
-
         const {name,value,type,checked} = event.target
         setFormData((prevFormData) =>{
           return{
@@ -26,16 +26,13 @@ function Form() {
         })
     }
     function handleSubmit(event){
-      event.preventDefault();
-      // submitToApi(FormData) //for api
       console.log(FormData)
+      // event.preventDefault();
+      // submitToApi(FormData) //for api
     }
 
-
-
-    
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <input 
         type="text"
         placeholder='First Name' 
@@ -75,7 +72,6 @@ function Form() {
          <br />
          <fieldset>
            <legend>Current employement status</legend>
-
            <input 
               type="radio"
               id="unemployed"

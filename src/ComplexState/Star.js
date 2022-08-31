@@ -10,7 +10,7 @@ console.log(props)
   return (
     <>
         <img 
-            src={`../images/${starIcon}`} 
+            src={`../Images/${starIcon}`} 
             className="card--favorite"
             onClick={props.handleClick}
         />

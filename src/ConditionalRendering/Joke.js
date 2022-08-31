@@ -9,7 +9,7 @@ function Joke(props) {
     <div>
       {props.setup && <h3>Setup:{props.setup}</h3>} 
       {/*if props.setup exist then show this value*/}
-      {isShown &&       <p style={{display:props.setup? "block":"none"}}>Punchline:{props.punchline}</p>}
+      {isShown && <p style={{display:props.setup? "block":"none"}}>Punchline:{props.punchline}</p>}
 
 
       {/* {!isShown && <button onClick={toggle}>Show Punchline</button>}

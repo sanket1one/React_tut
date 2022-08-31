@@ -1,7 +1,7 @@
 import reactLogo from "../Images/logo512.png"
 
 const element = (
-    <nav className="nav">
+    <nav className="nav">    
         <img src={reactLogo} className="nav-logo" />
         {/* <h1>Bob's Bistro</h1> */}
         <ul className="nav-items">

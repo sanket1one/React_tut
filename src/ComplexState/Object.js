@@ -37,7 +37,7 @@ function Object() {
             </div>
             
         </article>
-</main>
+    </main>
   )
 }
 
